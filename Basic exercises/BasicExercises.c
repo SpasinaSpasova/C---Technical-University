@@ -1,4 +1,5 @@
-18.	Напишете програма, която изисква от вас да въведете цяло число, дробно число и символ, след което изобразява въведените стойности на екрана. 
+1.Three different numbers 
+
 #include <stdio.h>
 void main(void)
 {int a;
@@ -9,7 +10,8 @@ scanf("%d %f %s", &a, &b, &c);
 printf("cqloto 4islo e %d,drobnoto e %f i cimvola e %c",a,b,c);}
 
 
-19.	Напишете програма, която изисква от вас въвеждането на две цели числа и след това изобразява тяхната сума, частното и остатъка от делението им на екрана. 
+2.Arithmetic operations with 2 numbers
+
 #include <stdio.h>
 int main()
 {int a,b,suma,chastno,ostatyk;
@@ -22,7 +24,8 @@ printf("sumata e %d,chastnoto e %d i ostatyka e %d",suma,chastno,ostatyk);
 return 0;}
 
 
-20.	Напишете програма, която изисква от вас въвеждането на дробно число и след това го отпечатва с противоположен знак.
+3.Change the sign of a number
+
  #include <stdio.h>
 int main()
 {float a;
@@ -34,7 +37,8 @@ return 0;}
 
 
 
-21.	Напишете програма, която изисква въвеждането на число и отпечатва квадратен корен от него.
+4.Square root of a number
+
 #include <stdio.h>
 #include <math.h>
 int main()
@@ -47,7 +51,8 @@ return 0;}
 
 
 
-22.	Напишете програма, която намира и извежда на екрана лицето на куб. Нека програмата да изисква от потребителя да въведе всеки един от размерите.
+5.Area of the cube
+
 
 #include <stdio.h>
 int main()
@@ -59,7 +64,7 @@ printf("liceto na pylnata povyrhnina na kuba e %f",a);
 return 0;}
 
 
-23.	Напишете програма, която изчислява броя на секундите в 1 час, 1 седмица, 1 месец и 1 година.
+6. Seconds in 1h, 1w, 1m и 1y.
 
 #include <stdio.h>
 int main()
@@ -71,7 +76,7 @@ godina=365*24*chas;
 printf("sekundite v 1 4as, 1 sedmica, 1 mesec i 1 godina sa syotvetno %d,%d,%d,%d",chas,sedmica,mesec,godina);
 return 0;}
 
-24.	Напишете програма, която разменя стойностите на две променливи А и В (ако А=3, В=5, да стане А=5, В=3).
+7.Swap two numbers
 #include <stdio.h>
 int main()
 {int A,B,P;
@@ -84,7 +89,7 @@ printf("%d,%d",A,B);
 return 0;}
 
 
-25.	Напишете програма, която намира и извежда на екрана обиколката и лицето на произволен правоъгълник.
+8.Perimeter and area of rectangle
 
 #include <stdio.h>
 int main()
@@ -97,7 +102,7 @@ printf("Liceto i obikolkata sa syotvetno: %dkv.sm.,%dsm.",S,P);
 return 0;}
 
 
-26.	Напишете програма, която намира и извежда на екрана обиколката и лицето на произволен триъгълник по зададени ъгъл  (Alpha) и прилежащите му страни b и c. За намиране на лицето да се използва формулата: 
+9.Write a program that finds and displays the circumference and face of an arbitrary triangle at a given angle a (Alpha) and its adjacent sides b and c. To find the face to use the formula:
 #include <stdio.h>
 #include<math.h>
 int main()
@@ -111,8 +116,8 @@ return 0;}
 
 
 
-27.	По дадена температура на въздуха по Фаренхайт, да се изчисли температурата по Целзий. Връзката между двете скали е следната:  , 
-където C е температурата по Целзий, а F - температурата по Фаренхайт.
+10.	or a given Fahrenheit air temperature, calculate the Celsius temperature. The relationship between the two rocks is as follows:
+where C is the Celsius temperature and F is the Fahrenheit temperature.
 
 #include <stdio.h>
 int main()
@@ -124,7 +129,7 @@ printf("Temperaturata po celzii e : %fgradusa",C);
 return 0;}
 
 
-28.	Напишете програма, която намира сумата на първите n естествени числа, като се използва формулата за намиране на сумата на първите n члена на аритметична прогресия.
+11.	Write a program that finds the sum of the first n natural numbers using the formula for finding the sum of the first n terms of an arithmetic progression
 
 #include <stdio.h>
 int main()
@@ -136,7 +141,7 @@ printf("Sumata na pyrvite %d 4lena na progresiqta e %d",n,S);
 return 0;}
 
 
-29.	Напишете програма, която изчислява лицето на триъгълник по дадени три страни a, b и c. Използвайте формулата  , където p е полупериметърът на триъгълника.
+12.Write a program that calculates the face of a triangle on three sides a, b and c. Use the formula where p is the perimeter of the triangle.
 
 #include <stdio.h>
 #include <math.h>
@@ -150,7 +155,7 @@ S=sqrt(p*(p-a)*(p-b)*(p-c));
 printf("Liceto na triygylnika e %fkv.sm.",S);
 return 0;}
 
-30.	Напишете програма за изчисляване и отпечатване на разстоянието между две точки в равнината, зададени чрез координатите си (x1, y1) и (x2, y2).
+13.Write a program for calculating and printing the distance between two points in the plane, given by their coordinates (x1, y1) and (x2, y2).
 
 #include <stdio.h>
 #include <math.h>
@@ -166,7 +171,8 @@ printf("raztoqnieto mejdu to4kite e %f.",c);
 return 0;}
 
 
-31.	Напишете програма, която намира и извежда на екрана стойността на израза   #include <stdio.h>
+14.	Write a program that finds and displays the value of the expression
+#include <stdio.h>
 #include <math.h>
 int main()
 {float x,y,e,z;
