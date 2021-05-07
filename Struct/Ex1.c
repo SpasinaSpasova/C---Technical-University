@@ -12,6 +12,7 @@ greater than the reference amount.
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 typedef struct
 {
@@ -44,4 +45,24 @@ void PrintPersonAccount(Person *p,int itemCount, float refSum)
 				   p[i].AccountSum);
 		}
 	}
+}
+void PrintPersonAccount_Second(Person *p,int itemCount, PName *names,char*egn)
+{
+	int i,maxIndex=0;
+	float maxSum= p[0].AccountSum;
+	
+	for(i=1;i<itemCount;i++)
+	{
+		if(p[i].AccountSum>maxSum)
+		{
+		maxSum=p[i].AccountSum;
+		maxIndex=i;
+		}
+	}
+	
+	strcpy(names->FName,p[maxIndex].name.FName);
+	strcpy(names->SName,p[maxIndex].name.SName);
+	strcpy(names->LName,p[maxIndex].name.LName);
+	strcpy(egn,p[maxIndex].EGN);
+	
 }
