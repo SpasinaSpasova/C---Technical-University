@@ -1,0 +1,28 @@
+Root 7
+Add 7 19
+Add 7 21
+Add 7 14
+Add 19 1
+Add 19 12
+Add 19 31
+Add 14 23
+Add 14 6
+END
+Root 3
+Add 3 4
+Add 3 5
+Add 4 8
+Add 8 10
+Add 8 12
+Add 5 18
+Add 5 30
+END
+Root 1
+Add 1 2
+Add 2 4
+Add 2 8
+Add 4 3
+Add 4 9
+Add 8 10
+Add 8 5
+END

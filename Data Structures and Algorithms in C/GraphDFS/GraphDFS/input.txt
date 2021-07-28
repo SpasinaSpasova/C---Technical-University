@@ -1,0 +1,8 @@
+5
+Add 1 0
+Add 0 3
+Add 2 1
+Add 0 2
+Add 3 4
+Add 4 0
+END 0
