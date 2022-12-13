@@ -1,0 +1,15 @@
+*****************************************************************
+VIRUS DEFINATIONS
+*****************************************************************
+4/V
+9/I
+13/R
+16/U
+21/S
+******************************************************************
+This code will search the character V at line no 4 of the file to be scanned.
+This code will search the character I at line no 9 of the file to be scanned.
+This code will search the character R at line no 13 of the file to be scanned.
+This code will search the character U at line no 16 of the file to be scanned.
+This code will search the character S at line no 21 of the file to be scanned.
+*******************************************************************
